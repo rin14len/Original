@@ -1,9 +1,5 @@
 body{
   background-color: rgb(161, 19, 40);
-  background-image: url("gold-frame.png");
-  background-repeat: no-repeat;
-  background-position:center;
-  background-size:95% auto;
   font-family: "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
   color: ghostwhite;
   margin: 0;
@@ -12,7 +8,7 @@ body{
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding-top: 120px;
+  padding-top: 80px;
   
 }
 
@@ -93,6 +89,7 @@ white-space:normal;
     white-space: nowrap;
   }
 }
+
 
 
 
