@@ -70,13 +70,13 @@ white-space:normal;
        }
         
 
-#correct{
+.correct{
   color: #f6e27a;
   text-shadow:0 2px 4px rgba(0,0,0,0.6);
 }
 
 
-#wrong{
+.wrong{
   color: #ff6b6b;
   text-shadow:0 2px 4px rgba(0,0,0,0.6);
 }
@@ -88,5 +88,6 @@ white-space:normal;
     white-space: nowrap;
   }
 }
+
 
 
