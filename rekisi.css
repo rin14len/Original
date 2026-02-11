@@ -63,6 +63,13 @@ white-space:normal;
   letter-spacing: 1px;
 }
 
+#result{margin-top:20px;
+        font-size: 22px;
+        font-weight:bold;
+  letter-spacing: 2px;
+       }
+        
+
 #correct{
   color: #f6e27a;
   text-shadow:0 2px 4px rgba(0,0,0,0.6);
@@ -81,4 +88,5 @@ white-space:normal;
     white-space: nowrap;
   }
 }
+
 
