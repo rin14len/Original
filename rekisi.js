@@ -44,9 +44,11 @@ button.textContent = choice;// ボタンに文字入れる
 
 button.addEventListener("click",()=>{
   if(choice === selectedQuiz.answer){
-    resultEl.textContent ="⭕ 正解！";
+    resultEl.textContent ="正解！";
+    resultEl.className ="correct";
   }else{
-    resultEl.textContent ="❌ 不正解！";
+    resultEl.textContent =" 不正解！";
+    resultEl.className ="wrong";
   }
 });
 
@@ -61,6 +63,7 @@ const nextBtn = document.getElementById("nextBtn");
 nextBtn.addEventListener("click",()=> {
  showQuiz(); 
 })
+
 
 
 
