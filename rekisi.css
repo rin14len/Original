@@ -1,0 +1,71 @@
+body{
+  background-color: rgb(161, 19, 40);
+  font-family: "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+  color: ghostwhite;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 80px;
+}
+
+h1{
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #f6e27a;
+  text-shadow: 0 2px 2px rgba(0,0,0,0.7);
+}
+#question{
+  display: block;
+  margin: 15px 0;
+font-size: 20px;
+letter-spacing: 1px;
+color: #fff3c4;
+}
+
+#choices{
+  display: block;
+}
+
+#choices button{
+  display: block;
+
+  width: 90%;      /* 横幅 */
+  max-width: 500px;
+  padding: 14px 70px;
+white-space:normal;
+  margin: 12px auto;
+  border-radius: 7px;
+
+  background: linear-gradient(145deg, #f6e27a, #d4af37);
+  color: #3b0000;
+  border: 3px solid #996515;
+
+
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+
+
+#nextBtn{
+  background-color: #5a0f1c;
+  border: 2px solid #d4af37;
+  color: #f6e27a;
+  padding: 12px 24px;
+  margin-top: 25px;
+  border-radius: 6px;
+
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+ 
+@media(min-width:768px){
+  #choices button{
+    max-width: 600px;
+    white-space: nowrap;
+  }
+}
